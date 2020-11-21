@@ -209,8 +209,8 @@ instances {
   id: "hero"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/hero/hero.go"
   position {
-    x: -1266.0
-    y: -4.0
+    x: -1440.0
+    y: -31.0
     z: 0.0
   }
   rotation {
@@ -378,8 +378,8 @@ instances {
   id: "chest"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/chest.go"
   position {
-    x: 2421.0
-    y: -62.0
+    x: 2436.0
+    y: -50.0
     z: 0.0
   }
   rotation {
@@ -392,12 +392,12 @@ instances {
     id: "script"
     properties {
       id: "potions_contained"
-      value: "1.0"
+      value: "0.0"
       type: PROPERTY_TYPE_NUMBER
     }
     properties {
       id: "keys_contained"
-      value: "1.0"
+      value: "0.0"
       type: PROPERTY_TYPE_NUMBER
     }
     properties {
@@ -465,6 +465,62 @@ instances {
       id: "object_to_open"
       value: "chest"
       type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_trigger_speech"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
+  position {
+    x: 1092.0
+    y: 45.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "action_url"
+      value: "action_say_speech"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_say_speech"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_say_speech.go"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "speech_index"
+      value: "1.0"
+      type: PROPERTY_TYPE_NUMBER
     }
   }
   scale3 {
@@ -594,6 +650,28 @@ embedded_instances {
   children: "action_open_chest"
   children: "action_trigger_chest"
   children: "chest"
+  data: ""
+  position {
+    x: -249.0
+    y: 844.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dialog"
+  children: "action_say_speech"
+  children: "action_trigger_speech"
   data: ""
   position {
     x: 0.0
