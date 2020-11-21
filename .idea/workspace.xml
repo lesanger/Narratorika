@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="525ae92a-da84-4db9-8ec3-be90be43520c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/levels/example_level/example_level.collection" beforeDir="false" afterPath="$PROJECT_DIR$/platformer_creation_kit_examples/levels/example_level/example_level.collection" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="HEAD~2" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WFGV2FvcjAwYwGbn5vqK3X1q3n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platformer_creation_kit_examples" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\d954m\IdeaProjects\PlatformerKIT\platformer_creation_kit_examples" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="525ae92a-da84-4db9-8ec3-be90be43520c" name="Default Changelist" comment="" />
+      <created>1578737949904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578737949904</updated>
+    </task>
+    <task id="LOCAL-00001" summary="check tutorial 1,2">
+      <created>1578744806893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578744806893</updated>
+    </task>
+    <task id="LOCAL-00002" summary="check tutorial 3,4">
+      <created>1578774899604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578774899604</updated>
+    </task>
+    <task id="LOCAL-00003" summary="check tutorial 7">
+      <created>1578954106240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578954106240</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="check tutorial 1,2" />
+    <MESSAGE value="check tutorial 3,4" />
+    <MESSAGE value="check tutorial 7" />
+    <MESSAGE value="wip" />
+    <MESSAGE value="old collection 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="old collection 4" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="757" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591539097177">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="757" y="360" key="#com.intellij.fileTypes.FileTypeChooser/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1591539097177" />
+    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1592153336222">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1592153336222" />
+    <state x="834" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586894366600">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="834" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894366600" />
+    <state x="718" y="233" width="776" height="536" key="find.popup" timestamp="1591534823237">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="718" y="233" width="776" height="536" key="find.popup/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1591534823237" />
+    <state x="830" y="365" key="git4idea.rebase.GitRebaseDialog" timestamp="1586893661625">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="365" key="git4idea.rebase.GitRebaseDialog/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586893661625" />
+    <state x="766" y="242" key="git4idea.rebase.GitRebaseEditor" timestamp="1586893693573">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="766" y="242" key="git4idea.rebase.GitRebaseEditor/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586893693573" />
+    <state x="864" y="144" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1586893700287">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="864" y="144" key="git4idea.rebase.GitUnstructuredEditor/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586893700287" />
+    <state x="687" y="218" width="672" height="678" key="search.everywhere.popup" timestamp="1591534829837">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="218" width="672" height="678" key="search.everywhere.popup/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1591534829837" />
+  </component>
+</project>
