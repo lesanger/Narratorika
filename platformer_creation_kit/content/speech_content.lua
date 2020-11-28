@@ -12,13 +12,13 @@ speech_content =
 	[1] =
 	{
 		texture = "08 Royal",
-		display_name = "Страж ворот",
-		content = "Только не ходи туда! Пока я бежал, чуть не врезался в колючки а из-за этого чуть не сорвался в пропасть!",
+		display_name = "Тинк",
+		content = "Хэй, не можешь мне? Я завтракал в своем замке, когда в него ворвались зомби. Я сражался как лев, но вынужден был отступить, захлопнув за собой дверь. К несчастью, моя сестра осталась на втором этаже. Ты не поможешь освободить её? Я дам тебе свой ключ, чтобы ты могла попасть внутрь.",
 		choices =
 		{
 			[1] =
 			{
-				text = "Уйди с дороги!",
+				text = "Я справлюсь! Где там твой ключ?",
 				next = 2
 			},
 		},
@@ -29,18 +29,13 @@ speech_content =
 	[2] =
 	{
 		texture = "08 Royal",
-		display_name = "Страж ворот",
-		content = "If you come to kill The Master, you shall have to come through me first!",
+		display_name = "Тинк",
+		content = "Ой, я видимо потерял его, пока прятался в пещере! То есть восстанавливал силы, готовясь к битве с зомби! Ты должна была видеть вход в пещеру по пути сюда...",
 		choices =
 		{
 			[1] =
 			{
-				text = "As you wish!",
-				next = nil
-			},
-			[2] =
-			{
-				text = "As you wish!",
+				text = "Все понятно",
 				next = nil
 			},
 		},
@@ -48,14 +43,14 @@ speech_content =
 	},
 	[3] =
 	{
-		texture = "06 Knight",
-		display_name = "White Knight",
-		content = "You left me no choice...",
+		texture = "07 Queen",
+		display_name = "Хельда",
+		content = "Спасибо за освобождение! Я надеюсь Тинк в порядке? Я слышала его крики, но когда спустилась вниз, там уже кищели зомби.",
 		choices =
 		{
 			[1] =
 			{
-				text = "[Search the body.]",
+				text = "Он сражался как лев, но был вынужден отступить.",
 				next = 4
 			},
 		},
@@ -63,9 +58,17 @@ speech_content =
 	},
 	[4] = 
 	{
-		texture = "06 Knight",
-		display_name = "White Knight",
-		content = "[You search the Black Knight's body and find a key.]",
+		texture = "07 Queen",
+		display_name = "Хельда",
+		content = "Никогда бы не поверила... В любом случае, спасибо тебе еще раз! В награду можешь взять карту сокровищ из моего сундука. Уверена, она пригодится тебе в будущих приключениях! ",
+		choices =
+		{
+			[1] =
+			{
+				text = "[Пойти за картой]",
+				next = nil
+			},
+		},
 		next = nil
 	},
 	[5] = 
