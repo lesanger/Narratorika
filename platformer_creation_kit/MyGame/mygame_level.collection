@@ -574,7 +574,7 @@ instances {
   prototype: "/platformer_creation_kit/MyGame/enemies/walking_enemy.go"
   position {
     x: 3212.0
-    y: -56.0
+    y: 26.0
     z: 0.0
   }
   rotation {
@@ -602,7 +602,7 @@ instances {
     }
     properties {
       id: "follow_distance"
-      value: "500.0"
+      value: "700.0"
       type: PROPERTY_TYPE_NUMBER
     }
     properties {

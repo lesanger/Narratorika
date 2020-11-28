@@ -9,7 +9,6 @@ embedded_components {
   "group: \"spikes\"\n"
   "mask: \"player\"\n"
   "mask: \"enemy\"\n"
-  "mask: \"obstacle\"\n"
   "embedded_collision_shape {\n"
   "  shapes {\n"
   "    shape_type: TYPE_SPHERE\n"
