@@ -2,13 +2,13 @@ embedded_components {
   id: "sprite"
   type: "sprite"
   data: "tile_set: \"/platformer_creation_kit/framework/atlases/level.atlas\"\n"
-  "default_animation: \"loot\"\n"
+  "default_animation: \"tree red\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 0.0
-    y: 77.99556
+    x: 87.0
+    y: 456.996
     z: -0.6
   }
   rotation {

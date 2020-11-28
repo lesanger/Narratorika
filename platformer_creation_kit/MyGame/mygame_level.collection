@@ -229,8 +229,8 @@ instances {
   id: "coin"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
-    x: -198.0
-    y: 137.0
+    x: 2207.0
+    y: 866.0
     z: 0.0
   }
   rotation {
@@ -249,8 +249,8 @@ instances {
   id: "potion"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
   position {
-    x: 1677.0
-    y: 59.0
+    x: 4113.0
+    y: 17.0
     z: 0.0
   }
   rotation {
@@ -297,7 +297,7 @@ instances {
   id: "action_trigger"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 1883.0
+    x: 2094.0
     y: 37.0
     z: 0.0
   }
@@ -330,8 +330,8 @@ instances {
   id: "door"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/doors/door.go"
   position {
-    x: 2020.0
-    y: -66.0
+    x: 2232.0
+    y: -62.0
     z: 0.0
   }
   rotation {
@@ -358,8 +358,8 @@ instances {
   id: "key"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/key.go"
   position {
-    x: -896.0
-    y: 86.0
+    x: -499.0
+    y: 74.0
     z: 0.0
   }
   rotation {
@@ -454,7 +454,7 @@ instances {
   id: "win"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/win.go"
   position {
-    x: 2145.0
+    x: 3366.0
     y: 883.0
     z: 0.0
   }
@@ -474,8 +474,8 @@ instances {
   id: "action_open_chest"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
   position {
-    x: 2725.0
-    y: 219.0
+    x: 4872.0
+    y: 28.0
     z: 0.0
   }
   rotation {
@@ -507,8 +507,8 @@ instances {
   id: "chest"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/chest.go"
   position {
-    x: 2718.0
-    y: -52.0
+    x: 4874.0
+    y: -200.0
     z: 0.0
   }
   rotation {
@@ -521,7 +521,12 @@ instances {
     id: "script"
     properties {
       id: "potions_contained"
-      value: "3.0"
+      value: "0.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+    properties {
+      id: "coins_contained"
+      value: "2.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -535,8 +540,8 @@ instances {
   id: "action_trigger_chest"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 2717.0
-    y: 32.0
+    x: 4871.0
+    y: -105.0
     z: 0.0
   }
   rotation {
@@ -557,6 +562,119 @@ instances {
       value: "false"
       type: PROPERTY_TYPE_BOOLEAN
     }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "walking_enemy"
+  prototype: "/platformer_creation_kit/MyGame/enemies/walking_enemy.go"
+  position {
+    x: 3212.0
+    y: -56.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "ai"
+    properties {
+      id: "follow_player"
+      value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+    properties {
+      id: "patrol"
+      value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+    properties {
+      id: "provokable"
+      value: "false"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+    properties {
+      id: "follow_distance"
+      value: "500.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+    properties {
+      id: "can_be_lost"
+      value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+    properties {
+      id: "max_investigation_time"
+      value: "0.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree_red"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/treasure_chest.go"
+  position {
+    x: 3559.0
+    y: 650.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "rock1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/rock1.go"
+  position {
+    x: 3709.0
+    y: -12.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "rock"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/rock.go"
+  position {
+    x: 2893.0
+    y: -12.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
   }
   scale3 {
     x: 1.0
@@ -686,7 +804,7 @@ embedded_instances {
   children: "action_trigger_speech"
   data: ""
   position {
-    x: 0.0
+    x: 17.0
     y: 0.0
     z: 0.0
   }

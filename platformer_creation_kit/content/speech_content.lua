@@ -11,14 +11,14 @@ speech_content =
 {
 	[1] =
 	{
-		texture = "23 Zombie Knight",
-		display_name = "Black Knight",
-		content = "Halt! You shall not enter The Master's chamber!",
+		texture = "08 Royal",
+		display_name = "Страж ворот",
+		content = "Только не ходи туда!",
 		choices =
 		{
 			[1] =
 			{
-				text = "Step aside, knight! I have no quarrel with you.",
+				text = "Уйди с дороги!",
 				next = 2
 			},
 		},
@@ -28,8 +28,8 @@ speech_content =
 
 	[2] =
 	{
-		texture = "23 Zombie Knight",
-		display_name = "Black Knight",
+		texture = "08 Royal",
+		display_name = "Страж ворот",
 		content = "If you come to kill The Master, you shall have to come through me first!",
 		choices =
 		{
