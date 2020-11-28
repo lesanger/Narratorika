@@ -680,7 +680,7 @@ instances {
   id: "win"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/win.go"
   position {
-    x: 2097.0
+    x: 2065.0
     y: 1297.0
     z: 0.0
   }
@@ -728,7 +728,7 @@ instances {
   id: "action_trigger_speech1"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: -65.0
+    x: -83.0
     y: 1.0
     z: 0.0
   }
