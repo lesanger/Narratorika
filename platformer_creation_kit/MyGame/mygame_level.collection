@@ -209,7 +209,7 @@ instances {
   id: "hero"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/hero/hero.go"
   position {
-    x: -3186.0
+    x: -3151.0
     y: -55.0
     z: 0.0
   }
@@ -1092,6 +1092,26 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "rock11"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/rock1.go"
+  position {
+    x: -3388.0
+    y: -14.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "base"
@@ -1377,6 +1397,7 @@ embedded_instances {
   children: "box"
   children: "rock"
   children: "rock1"
+  children: "rock11"
   children: "rock2"
   children: "rock21"
   children: "spikes"
