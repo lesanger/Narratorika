@@ -1072,6 +1072,26 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "rock21"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/rock2.go"
+  position {
+    x: 1760.0
+    y: -428.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "base"
@@ -1358,6 +1378,7 @@ embedded_instances {
   children: "rock"
   children: "rock1"
   children: "rock2"
+  children: "rock21"
   children: "spikes"
   children: "spikes1"
   data: ""
