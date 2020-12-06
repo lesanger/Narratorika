@@ -81,7 +81,8 @@ function init(self)
     self.ladder_time = footstep_timeout;
     self.last_position = go.get_position()
     self.was_touching_ladder = false;
-    self.animation_lock = false;
+	self.animation_lock = false;
+	msg.post("#background_sound", "play_sound", { gain = 0.5})
 end
 
 local function play_animation(self, anim, play_mode)

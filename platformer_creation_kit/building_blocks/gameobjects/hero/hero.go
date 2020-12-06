@@ -523,3 +523,25 @@ embedded_components {
     w: 1.0
   }
 }
+embedded_components {
+  id: "background_sound"
+  type: "sound"
+  data: "sound: \"/platformer_creation_kit/framework/sounds/12.ogg\"\n"
+  "looping: 1\n"
+  "group: \"master\"\n"
+  "gain: 0.15\n"
+  "pan: 0.0\n"
+  "speed: 1.0\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
