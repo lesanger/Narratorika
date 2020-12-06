@@ -24,16 +24,16 @@ function on_message(self, message_id, message, sender)
 			-- distribute items
 			if self.open then
     			for i = 1,self.potions_contained, 1 do
-					local obj = factory.create("#potion_factory", go.get_position(), vmath.quat(), { start_on_awake = false, start_delay = 0.525})
-					go.animate(obj, "position", go.PLAYBACK_ONCE_FORWARD, go.get_position() + vmath.vector3(math.random(-200, 200), math.random(100, 200), 0), go.EASING_OUTCUBIC, 0.5)
+					local obj = factory.create("#potion_factory", go.get_world_position(), vmath.quat(), { start_on_awake = false, start_delay = 0.525})
+					go.animate(obj, "position", go.PLAYBACK_ONCE_FORWARD, go.get_world_position() + vmath.vector3(math.random(-200, 200), math.random(100, 200), 0), go.EASING_OUTCUBIC, 0.5)
 				end
 				for i = 1, self.coins_contained, 1 do
-					local obj = factory.create("#coin_factory", go.get_position(), vmath.quat(), { start_on_awake = false, start_delay = 1})
-					go.animate(obj, "position", go.PLAYBACK_ONCE_FORWARD, go.get_position() + vmath.vector3(math.random(-200, 200), math.random(100, 200), 0), go.EASING_OUTCUBIC, 0.5)
+					local obj = factory.create("#coin_factory", go.get_world_position(), vmath.quat(), { start_on_awake = false, start_delay = 1})
+					go.animate(obj, "position", go.PLAYBACK_ONCE_FORWARD, go.get_world_position() + vmath.vector3(math.random(-200, 200), math.random(100, 200), 0), go.EASING_OUTCUBIC, 0.5)
 				end
 				for i = 1, self.keys_contained, 1 do
-					local obj = factory.create("#key_factory", go.get_position(), vmath.quat(), { start_on_awake = false, start_delay = 1})
-					go.animate(obj, "position", go.PLAYBACK_ONCE_FORWARD, go.get_position() + vmath.vector3(math.random(-200, 200), math.random(100, 200), 0), go.EASING_OUTCUBIC, 0.5)
+					local obj = factory.create("#key_factory", go.get_world_position(), vmath.quat(), { start_on_awake = false, start_delay = 1})
+					go.animate(obj, "position", go.PLAYBACK_ONCE_FORWARD, go.get_world_position() + vmath.vector3(math.random(-200, 200), math.random(100, 200), 0), go.EASING_OUTCUBIC, 0.5)
 				end
 			end
 		end

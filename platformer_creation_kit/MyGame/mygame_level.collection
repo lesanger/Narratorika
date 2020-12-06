@@ -391,105 +391,6 @@ instances {
   }
 }
 instances {
-  id: "action_open_chest"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
-  position {
-    x: 5288.0
-    y: -193.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "object_to_open"
-      value: "chest"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "close"
-      value: "false"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "chest"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/chest.go"
-  position {
-    x: 5296.0
-    y: -339.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "potions_contained"
-      value: "0.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-    properties {
-      id: "coins_contained"
-      value: "2.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger_chest"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 5298.0
-    y: -249.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "/action_open_chest"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "destroy_after_trigger"
-      value: "false"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "npc_1"
   prototype: "/platformer_creation_kit/MyGame/Npc/npc_1.go"
   position {
@@ -1112,6 +1013,105 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "chest"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/chest.go"
+  position {
+    x: 5296.0
+    y: -339.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "potions_contained"
+      value: "0.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+    properties {
+      id: "coins_contained"
+      value: "2.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_trigger_chest"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
+  position {
+    x: 5298.0
+    y: -249.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "action_url"
+      value: "/action_open_chest"
+      type: PROPERTY_TYPE_URL
+    }
+    properties {
+      id: "destroy_after_trigger"
+      value: "false"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_open_chest"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
+  position {
+    x: 5288.0
+    y: -193.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "object_to_open"
+      value: "chest"
+      type: PROPERTY_TYPE_URL
+    }
+    properties {
+      id: "close"
+      value: "false"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "base"
@@ -1402,6 +1402,29 @@ embedded_instances {
   children: "rock21"
   children: "spikes"
   children: "spikes1"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Chest"
+  children: "action_open_chest"
+  children: "action_trigger_chest"
+  children: "chest"
   data: ""
   position {
     x: 0.0
