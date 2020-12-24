@@ -1676,8 +1676,8 @@ instances {
   id: "hero"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/hero/hero.go"
   position {
-    x: 228.41228
-    y: 493.41473
+    x: -55.588
+    y: 391.415
     z: 0.0
   }
   rotation {
