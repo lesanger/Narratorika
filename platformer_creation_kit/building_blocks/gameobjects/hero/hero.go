@@ -453,7 +453,7 @@ embedded_components {
   position {
     x: 13.628327
     y: 0.0
-    z: 0.025
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -474,7 +474,7 @@ embedded_components {
   position {
     x: -7.923446
     y: 0.0
-    z: 0.025
+    z: 1.0
   }
   rotation {
     x: 0.0

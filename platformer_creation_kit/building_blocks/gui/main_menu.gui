@@ -279,7 +279,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "My game"
+  text: "Game Name"
   font: "main_menu_font"
   id: "text"
   xanchor: XANCHOR_NONE
@@ -310,7 +310,7 @@ nodes {
 }
 nodes {
   position {
-    x: 640.0
+    x: 6400.0
     y: 360.0
     z: 0.0
     w: 1.0
@@ -427,7 +427,7 @@ nodes {
 }
 nodes {
   position {
-    x: 930.0
+    x: 9300.0
     y: 360.0
     z: 0.0
     w: 1.0
@@ -544,7 +544,7 @@ nodes {
 }
 nodes {
   position {
-    x: 350.0
+    x: 3500.0
     y: 360.0
     z: 0.0
     w: 1.0
@@ -661,8 +661,8 @@ nodes {
 }
 nodes {
   position {
-    x: 350.0
-    y: 250.0
+    x: 640.0
+    y: 360.0
     z: 0.0
     w: 1.0
   }
@@ -746,7 +746,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Example"
+  text: "Play"
   font: "main_menu_font"
   id: "story4_lbl"
   xanchor: XANCHOR_NONE
@@ -778,7 +778,7 @@ nodes {
 }
 nodes {
   position {
-    x: 930.0
+    x: 9300.0
     y: 250.0
     z: 0.0
     w: 1.0

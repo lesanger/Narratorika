@@ -286,8 +286,8 @@ instances {
   id: "coin2"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
-    x: 3132.87
-    y: 1411.3739
+    x: 3536.87
+    y: 1411.374
     z: 0.0
   }
   rotation {
@@ -446,8 +446,8 @@ instances {
   id: "coin6"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
-    x: 3825.4285
-    y: 1411.3739
+    x: 3873.428
+    y: 1411.374
     z: 0.0
   }
   rotation {
@@ -466,8 +466,8 @@ instances {
   id: "coin4"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
-    x: 6792.9365
-    y: 1680.0027
+    x: 6109.937
+    y: 1968.003
     z: 0.0
   }
   rotation {
@@ -742,8 +742,8 @@ instances {
   id: "example_zombie_warrior3"
   prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
   position {
-    x: 10863.392
-    y: 1625.6666
+    x: 10484.392
+    y: 1625.667
     z: 0.0
   }
   rotation {
@@ -782,8 +782,8 @@ instances {
   id: "example_zombie_warrior6"
   prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
   position {
-    x: 5224.247
-    y: 642.6922
+    x: 5607.247
+    y: 642.692
     z: 0.0
   }
   rotation {
@@ -842,8 +842,8 @@ instances {
   id: "example_zombie_mage"
   prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
   position {
-    x: 4309.481
-    y: 359.29993
+    x: 4447.481
+    y: 359.3
     z: 0.0
   }
   rotation {
@@ -890,8 +890,8 @@ instances {
   id: "key"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/key.go"
   position {
-    x: 2545.6106
-    y: 594.49316
+    x: 2389.611
+    y: 594.493
     z: 0.0
   }
   rotation {
@@ -1027,26 +1027,6 @@ instances {
   }
 }
 instances {
-  id: "potion2"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
-  position {
-    x: 5674.621
-    y: 696.41266
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "rock"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/rock.go"
   position {
@@ -1150,8 +1130,8 @@ instances {
   id: "potion5"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
   position {
-    x: 3408.477
-    y: 430.9784
+    x: 5009.477
+    y: 713.978
     z: 0.0
   }
   rotation {
@@ -1190,8 +1170,8 @@ instances {
   id: "spikes"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/spikes.go"
   position {
-    x: 3701.118
-    y: 1375.8827
+    x: 3300.118
+    y: 1375.883
     z: 0.0
   }
   rotation {
@@ -1250,8 +1230,8 @@ instances {
   id: "tree2"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
   position {
-    x: 6560.104
-    y: 1911.2979
+    x: 6471.104
+    y: 1911.298
     z: 0.0
   }
   rotation {
@@ -1330,8 +1310,8 @@ instances {
   id: "tree_red5"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
   position {
-    x: 4044.7087
-    y: 400.7859
+    x: 4188.709
+    y: 400.786
     z: 0.0
   }
   rotation {
@@ -1350,8 +1330,8 @@ instances {
   id: "tree_red3"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
   position {
-    x: 10436.26
-    y: 1661.8396
+    x: 11234.26
+    y: 1661.84
     z: 0.0
   }
   rotation {
@@ -1752,7 +1732,6 @@ embedded_instances {
   children: "key1"
   children: "potion"
   children: "potion1"
-  children: "potion2"
   children: "potion3"
   children: "potion4"
   children: "potion5"
