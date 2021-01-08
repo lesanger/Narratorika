@@ -742,7 +742,7 @@ instances {
   id: "example_zombie_warrior3"
   prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
   position {
-    x: 10484.392
+    x: 10518.392
     y: 1625.667
     z: 0.0
   }
@@ -822,8 +822,8 @@ instances {
   id: "example_zombie_warrior1"
   prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
   position {
-    x: 9186.501
-    y: 3310.9766
+    x: 9323.501
+    y: 3310.977
     z: 0.0
   }
   rotation {
@@ -910,8 +910,8 @@ instances {
   id: "example_zombie_mage1"
   prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
   position {
-    x: 9873.52
-    y: 2467.4167
+    x: 9611.52
+    y: 2467.417
     z: 0.0
   }
   rotation {
