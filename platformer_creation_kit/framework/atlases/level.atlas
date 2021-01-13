@@ -90,6 +90,50 @@ images {
   image: "/platformer_creation_kit/framework/sprites/BG_03.jpg"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
+images {
+  image: "/platformer_creation_kit/framework/sprites/backpack.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/camera.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/degree.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/drugs.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/form.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/healthkit.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/laptop.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/palette.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/PC.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/wine.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/bicycle.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
 margin: 8
 extrude_borders: 2
 inner_padding: 2
