@@ -134,6 +134,14 @@ images {
   image: "/platformer_creation_kit/framework/sprites/bicycle.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
+images {
+  image: "/platformer_creation_kit/framework/sprites/game.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/platformer_creation_kit/framework/sprites/compas.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
 margin: 8
 extrude_borders: 2
 inner_padding: 2
