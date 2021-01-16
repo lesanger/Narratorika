@@ -297,7 +297,7 @@ instances {
   id: "compas"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/compas.go"
   position {
-    x: 1690.0
+    x: 1720.0
     y: 1426.0
     z: 0.0
   }
@@ -466,7 +466,7 @@ instances {
   id: "coin6"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
-    x: 3873.428
+    x: 3497.428
     y: 1411.374
     z: 0.0
   }
@@ -1926,7 +1926,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "4.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -1940,7 +1940,7 @@ instances {
   id: "action_trigger 2"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 0.0
+    x: 30.0
     y: 0.0
     z: 0.0
   }
@@ -1982,7 +1982,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "7.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -1996,7 +1996,7 @@ instances {
   id: "action_trigger 3"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 0.0
+    x: 455.0
     y: 0.0
     z: 0.0
   }
@@ -2038,7 +2038,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "13.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2094,7 +2094,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "16.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2150,7 +2150,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "19.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2206,7 +2206,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "22.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2262,7 +2262,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "37.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2318,7 +2318,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "40.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2374,7 +2374,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "34.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2430,7 +2430,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "31.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2486,7 +2486,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "28.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2542,7 +2542,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "25.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2598,7 +2598,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "43.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2654,7 +2654,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "1.0"
+      value: "10.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -2696,7 +2696,7 @@ instances {
   id: "npc_2"
   prototype: "/platformer_creation_kit_examples/levels/example_level/NPC/npc_2.go"
   position {
-    x: 3494.0
+    x: 3950.0
     y: 1335.0
     z: 0.0
   }
@@ -3319,7 +3319,7 @@ embedded_instances {
   data: ""
   position {
     x: 1743.0
-    y: 1442.0
+    y: 1480.0
     z: 0.0
   }
   rotation {
@@ -3604,7 +3604,7 @@ embedded_instances {
   children: "action_trigger 15"
   data: ""
   position {
-    x: 9223.0
+    x: 9266.0
     y: 4236.0
     z: 0.0
   }
