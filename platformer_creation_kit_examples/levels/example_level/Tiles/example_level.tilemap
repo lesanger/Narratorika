@@ -1,4 +1,4 @@
-tile_set: "/platformer_creation_kit_examples/levels/example_level/grass_old.tilesource"
+tile_set: "/platformer_creation_kit_examples/levels/example_level/Tiles/grass_old.tilesource"
 layers {
   id: "layer1"
   z: -1.0

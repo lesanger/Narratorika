@@ -277,7 +277,7 @@ instances {
   id: "coin"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
-    x: 1152.26
+    x: 1011.26
     y: 1137.719
     z: 0.0
   }
@@ -295,7 +295,7 @@ instances {
 }
 instances {
   id: "compas"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/compas.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/compas.go"
   position {
     x: 1690.0
     y: 1426.0
@@ -315,7 +315,7 @@ instances {
 }
 instances {
   id: "example_zombie_mage3"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_mage.go"
   position {
     x: 2311.575
     y: 1343.512
@@ -463,26 +463,6 @@ instances {
   }
 }
 instances {
-  id: "coin2"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 3536.87
-    y: 1411.374
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "coin6"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
@@ -504,7 +484,7 @@ instances {
 }
 instances {
   id: "backpack"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/backpack.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/backpack.go"
   position {
     x: 3547.0
     y: 446.0
@@ -524,7 +504,7 @@ instances {
 }
 instances {
   id: "example_zombie_mage"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_mage.go"
   position {
     x: 4447.481
     y: 359.3
@@ -552,7 +532,7 @@ instances {
 }
 instances {
   id: "bicycle"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/bicycle.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/bicycle.go"
   position {
     x: 5085.0
     y: 704.0
@@ -572,7 +552,7 @@ instances {
 }
 instances {
   id: "example_zombie_warrior6"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
     x: 5607.247
     y: 642.692
@@ -600,7 +580,7 @@ instances {
 }
 instances {
   id: "game"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/game.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/game.go"
   position {
     x: 5252.0
     y: 1554.0
@@ -620,7 +600,7 @@ instances {
 }
 instances {
   id: "example_zombie_mage2"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_mage.go"
   position {
     x: 5901.7593
     y: 1491.0311
@@ -676,7 +656,7 @@ instances {
 }
 instances {
   id: "drugs"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/drugs.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/drugs.go"
   position {
     x: 6135.0
     y: 1983.0
@@ -696,7 +676,7 @@ instances {
 }
 instances {
   id: "example_zombie_warrior4"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
     x: 5283.543
     y: 2178.916
@@ -796,7 +776,7 @@ instances {
 }
 instances {
   id: "palette"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/palette.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/palette.go"
   position {
     x: 3716.0
     y: 3110.0
@@ -877,7 +857,7 @@ instances {
 }
 instances {
   id: "example_zombie_warrior5"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
     x: 3137.813
     y: 2886.099
@@ -925,7 +905,7 @@ instances {
 }
 instances {
   id: "example_zombie_mage4"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_mage.go"
   position {
     x: 7731.078
     y: 512.954
@@ -993,7 +973,7 @@ instances {
 }
 instances {
   id: "wine"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/wine.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/wine.go"
   position {
     x: 6628.0
     y: 418.0
@@ -1094,7 +1074,7 @@ instances {
 }
 instances {
   id: "example_zombie_warrior2"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
     x: 8065.2944
     y: 2322.1538
@@ -1170,7 +1150,7 @@ instances {
 }
 instances {
   id: "videocamera"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/videocamera.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/videocamera.go"
   position {
     x: 8490.0
     y: 2536.0
@@ -1190,7 +1170,7 @@ instances {
 }
 instances {
   id: "form"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/form.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/form.go"
   position {
     x: 9097.0
     y: 2549.0
@@ -1210,7 +1190,7 @@ instances {
 }
 instances {
   id: "example_zombie_mage1"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_mage.go"
   position {
     x: 9611.52
     y: 2467.417
@@ -1346,7 +1326,7 @@ instances {
 }
 instances {
   id: "degree"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/degree.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/degree.go"
   position {
     x: 11021.0
     y: 1706.0
@@ -1366,7 +1346,7 @@ instances {
 }
 instances {
   id: "example_zombie_warrior3"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
     x: 10163.392
     y: 1770.667
@@ -1394,7 +1374,7 @@ instances {
 }
 instances {
   id: "PC"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/PC.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/PC.go"
   position {
     x: 10039.0
     y: 3392.0
@@ -1414,7 +1394,7 @@ instances {
 }
 instances {
   id: "example_zombie_warrior1"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
     x: 9262.501
     y: 3310.977
@@ -1470,7 +1450,7 @@ instances {
 }
 instances {
   id: "example_king"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_knight.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_knight.go"
   position {
     x: 9841.12
     y: 4137.421
@@ -1492,8 +1472,8 @@ instances {
   id: "tree"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
   position {
-    x: 705.7259
-    y: 1073.2952
+    x: 1196.726
+    y: 1073.295
     z: 0.0
   }
   rotation {
@@ -1872,6 +1852,66 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "npc_1"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/NPC/npc_1.go"
+  position {
+    x: 690.0
+    y: 1062.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "npc_2"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/NPC/npc_2.go"
+  position {
+    x: 3494.0
+    y: 1335.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "npc_3"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/NPC/npc_3.go"
+  position {
+    x: 9121.0
+    y: 1621.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "level"
@@ -1914,7 +1954,7 @@ embedded_instances {
   id: "tilemap"
   data: "components {\n"
   "  id: \"tilemap\"\n"
-  "  component: \"/platformer_creation_kit_examples/levels/example_level/example_level.tilemap\"\n"
+  "  component: \"/platformer_creation_kit_examples/levels/example_level/Tiles/example_level.tilemap\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -1930,7 +1970,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"collisionobject\"\n"
   "  type: \"collisionobject\"\n"
-  "  data: \"collision_shape: \\\"/platformer_creation_kit_examples/levels/example_level/example_level.tilemap\\\"\\n"
+  "  data: \"collision_shape: \\\"/platformer_creation_kit_examples/levels/example_level/Tiles/example_level.tilemap\\\"\\n"
   "type: COLLISION_OBJECT_TYPE_STATIC\\n"
   "mass: 0.0\\n"
   "friction: 0.1\\n"
@@ -2005,6 +2045,7 @@ embedded_instances {
   id: "Scene 1"
   children: "coin"
   children: "coin1"
+  children: "npc_1"
   children: "rock"
   children: "tree"
   children: "tree_red1"
@@ -2057,8 +2098,8 @@ embedded_instances {
 }
 embedded_instances {
   id: "Scene 3"
-  children: "coin2"
   children: "coin6"
+  children: "npc_2"
   children: "spikes"
   data: ""
   position {
@@ -2230,6 +2271,7 @@ embedded_instances {
   id: "Scene 10"
   children: "action_trigger1"
   children: "door1"
+  children: "npc_3"
   children: "spikes2"
   data: ""
   position {

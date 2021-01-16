@@ -30,7 +30,7 @@ components {
 }
 components {
   id: "interactable"
-  component: "/platformer_creation_kit_examples/levels/example_level/Assests/interactable.script"
+  component: "/platformer_creation_kit_examples/levels/example_level/Memories/interactable.script"
   position {
     x: 0.0
     y: 0.0
@@ -114,7 +114,7 @@ embedded_components {
   id: "sprite"
   type: "sprite"
   data: "tile_set: \"/platformer_creation_kit/framework/atlases/level.atlas\"\n"
-  "default_animation: \"bicycle\"\n"
+  "default_animation: \"compas\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""

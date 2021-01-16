@@ -392,7 +392,7 @@ instances {
 }
 instances {
   id: "npc_1"
-  prototype: "/platformer_creation_kit/MyGame/Npc/npc_1.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/NPC/npc_1.go"
   position {
     x: 272.0
     y: -337.0
@@ -412,7 +412,7 @@ instances {
 }
 instances {
   id: "npc_2"
-  prototype: "/platformer_creation_kit/MyGame/Npc/npc_2.go"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/NPC/npc_2.go"
   position {
     x: 2431.0
     y: 1065.0

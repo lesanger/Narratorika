@@ -30,7 +30,7 @@ components {
 }
 components {
   id: "interactable"
-  component: "/platformer_creation_kit_examples/levels/example_level/Assests/interactable.script"
+  component: "/platformer_creation_kit_examples/levels/example_level/Memories/interactable.script"
   position {
     x: 0.0
     y: 0.0
