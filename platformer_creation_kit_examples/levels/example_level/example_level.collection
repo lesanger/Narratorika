@@ -238,7 +238,7 @@ instances {
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
     x: 507.904
-    y: 556.432
+    y: 642.432
     z: 0.0
   }
   rotation {
@@ -326,6 +326,14 @@ instances {
     y: 0.0
     z: 0.0
     w: 1.0
+  }
+  component_properties {
+    id: "ai"
+    properties {
+      id: "follow_distance"
+      value: "350.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
   }
   scale3 {
     x: 1.0
@@ -528,6 +536,14 @@ instances {
     z: 0.0
     w: 1.0
   }
+  component_properties {
+    id: "health"
+    properties {
+      id: "max_health"
+      value: "2.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
   scale3 {
     x: 1.0
     y: 1.0
@@ -568,6 +584,14 @@ instances {
     z: 0.0
     w: 1.0
   }
+  component_properties {
+    id: "ai"
+    properties {
+      id: "follow_distance"
+      value: "350.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
   scale3 {
     x: 1.0
     y: 1.0
@@ -607,6 +631,22 @@ instances {
     y: 0.0
     z: 0.0
     w: 1.0
+  }
+  component_properties {
+    id: "ai"
+    properties {
+      id: "follow_distance"
+      value: "350.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  component_properties {
+    id: "health"
+    properties {
+      id: "max_health"
+      value: "2.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
   }
   scale3 {
     x: 1.0
@@ -778,7 +818,7 @@ instances {
   id: "action_trigger2"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 3095.939
+    x: 2899.939
     y: 2976.31
     z: 0.0
   }
@@ -811,8 +851,8 @@ instances {
   id: "chest"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/chest.go"
   position {
-    x: 3095.0403
-    y: 2881.4585
+    x: 2899.04
+    y: 2881.459
     z: 0.0
   }
   rotation {
@@ -839,7 +879,7 @@ instances {
   id: "example_zombie_warrior5"
   prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
   position {
-    x: 2901.813
+    x: 3137.813
     y: 2886.099
     z: 0.0
   }
@@ -848,6 +888,14 @@ instances {
     y: 0.0
     z: 0.0
     w: 1.0
+  }
+  component_properties {
+    id: "ai"
+    properties {
+      id: "follow_distance"
+      value: "350.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
   }
   scale3 {
     x: 1.0
@@ -888,6 +936,14 @@ instances {
     y: 0.0
     z: 0.0
     w: 1.0
+  }
+  component_properties {
+    id: "health"
+    properties {
+      id: "max_health"
+      value: "2.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
   }
   scale3 {
     x: 1.0
@@ -1050,6 +1106,22 @@ instances {
     z: 0.0
     w: 1.0
   }
+  component_properties {
+    id: "ai"
+    properties {
+      id: "follow_distance"
+      value: "300.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  component_properties {
+    id: "health"
+    properties {
+      id: "max_health"
+      value: "3.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
   scale3 {
     x: 1.0
     y: 1.0
@@ -1149,6 +1221,22 @@ instances {
     y: 0.0
     z: 0.0
     w: 1.0
+  }
+  component_properties {
+    id: "ai"
+    properties {
+      id: "follow_distance"
+      value: "300.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  component_properties {
+    id: "health"
+    properties {
+      id: "max_health"
+      value: "3.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
   }
   scale3 {
     x: 1.0
@@ -1290,6 +1378,14 @@ instances {
     z: 0.0
     w: 1.0
   }
+  component_properties {
+    id: "health"
+    properties {
+      id: "max_health"
+      value: "3.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
   scale3 {
     x: 1.0
     y: 1.0
@@ -1320,7 +1416,7 @@ instances {
   id: "example_zombie_warrior1"
   prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
   position {
-    x: 9323.501
+    x: 9262.501
     y: 3310.977
     z: 0.0
   }
@@ -1329,6 +1425,22 @@ instances {
     y: 0.0
     z: 0.0
     w: 1.0
+  }
+  component_properties {
+    id: "ai"
+    properties {
+      id: "follow_distance"
+      value: "350.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  component_properties {
+    id: "health"
+    properties {
+      id: "max_health"
+      value: "3.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
   }
   scale3 {
     x: 1.0
