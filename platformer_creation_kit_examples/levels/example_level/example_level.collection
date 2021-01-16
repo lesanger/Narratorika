@@ -1,1312 +1,5 @@
 name: "default"
 instances {
-  id: "action_change_coins"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_change_coins.go"
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_open_door"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
-  position {
-    x: 1891.3317
-    y: 1289.1654
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "object_to_open"
-      value: "door"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_open_door1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
-  position {
-    x: 7207.298
-    y: 1012.53326
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "object_to_open"
-      value: "door1"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_open_door2"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
-  position {
-    x: 3197.035
-    y: 3127.1733
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "object_to_open"
-      value: "chest"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 2965.932
-    y: 1998.2253
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_open_door"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "destroy_after_trigger"
-      value: "false"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 8281.898
-    y: 1721.5933
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_open_door1"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "destroy_after_trigger"
-      value: "false"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger2"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 3095.9392
-    y: 2958.31
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_open_door2"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "destroy_after_trigger"
-      value: "false"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "cave2"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/cave.go"
-  position {
-    x: 6354.157
-    y: 1433.7924
-    z: 1.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "cave"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/cave.go"
-  position {
-    x: 2873.4458
-    y: 1509.3704
-    z: 1.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin12"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 10146.393
-    y: 2556.546
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin2"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 3536.87
-    y: 1411.374
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin15"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 10703.255
-    y: 2156.3892
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin13"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 10498.979
-    y: 2570.5374
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 507.904
-    y: 556.432
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin16"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 4398.038
-    y: 3359.0256
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 1152.26
-    y: 1137.719
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin7"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 8326.368
-    y: 2404.5913
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin6"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 3873.428
-    y: 1411.374
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "cave1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/cave.go"
-  position {
-    x: 2873.4458
-    y: 822.3309
-    z: 1.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin3"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 4708.726
-    y: 2676.247
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin14"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 10608.112
-    y: 2380.253
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin18"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 7234.275
-    y: 574.674
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin8"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 8175.0894
-    y: 2404.5913
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin11"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 10300.3
-    y: 2690.8643
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "chest"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/chest.go"
-  position {
-    x: 3095.0403
-    y: 2881.4585
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "coins_contained"
-      value: "10.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_mage4"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
-  position {
-    x: 7731.078
-    y: 512.954
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "door"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/doors/door.go"
-  position {
-    x: 3011.3706
-    y: 1899.7368
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "is_locked"
-      value: "true"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_mage3"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
-  position {
-    x: 2311.575
-    y: 1343.512
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_warrior3"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
-  position {
-    x: 10163.392
-    y: 1770.667
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_warrior2"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
-  position {
-    x: 8065.2944
-    y: 2322.1538
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_warrior6"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
-  position {
-    x: 5607.247
-    y: 642.692
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_mage2"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
-  position {
-    x: 5901.7593
-    y: 1491.0311
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_warrior1"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
-  position {
-    x: 9323.501
-    y: 3310.977
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_mage"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
-  position {
-    x: 4447.481
-    y: 359.3
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "door1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/doors/door.go"
-  position {
-    x: 8346.494
-    y: 1621.3961
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "is_locked"
-      value: "true"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "key"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/key.go"
-  position {
-    x: 2389.611
-    y: 594.493
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_mage1"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
-  position {
-    x: 9611.52
-    y: 2467.417
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_warrior4"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
-  position {
-    x: 5283.543
-    y: 2178.916
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_king"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_knight.go"
-  position {
-    x: 9841.12
-    y: 4137.421
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "key1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/key.go"
-  position {
-    x: 5248.7227
-    y: 3504.401
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "example_zombie_warrior5"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
-  position {
-    x: 2901.813
-    y: 2886.099
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "rock"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/rock.go"
-  position {
-    x: 1108.8251
-    y: 406.2206
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "potion3"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
-  position {
-    x: 8879.071
-    y: 3411.67
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "potion4"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
-  position {
-    x: 2286.148
-    y: 3082.68
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "potion6"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
-  position {
-    x: 7098.66
-    y: 576.84
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "potion"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
-  position {
-    x: 1195.484
-    y: 1971.8007
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "potion5"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
-  position {
-    x: 6665.477
-    y: 1835.978
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "spikes"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/spikes.go"
-  position {
-    x: 3300.118
-    y: 1375.883
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "spikes1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/spikes.go"
-  position {
-    x: 4682.027
-    y: 2492.785
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "spikes2"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/spikes.go"
-  position {
-    x: 8491.427
-    y: 1648.178
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree2"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
-  position {
-    x: 6471.104
-    y: 1911.298
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.5
-    y: 1.5
-    z: 1.5
-  }
-}
-instances {
-  id: "tree3"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
-  position {
-    x: 9683.587
-    y: 3320.407
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree_red2"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
-  position {
-    x: 7380.018
-    y: 543.135
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree_red4"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
-  position {
-    x: 9049.101
-    y: 4183.9473
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree_red5"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
-  position {
-    x: 4188.709
-    y: 400.786
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree_red3"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
-  position {
-    x: 11234.26
-    y: 1661.84
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree4"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
-  position {
-    x: 1793.6885
-    y: 2186.63
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree_red1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
-  position {
-    x: -1.0411155
-    y: 400.7859
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree_red"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
-  position {
-    x: 2108.747
-    y: 3055.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
-  position {
-    x: 5644.669
-    y: 2187.348
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "tree"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
-  position {
-    x: 705.7259
-    y: 1073.2952
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "background"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/backgrounds/background.go"
   position {
@@ -1513,6 +206,295 @@ instances {
   }
 }
 instances {
+  id: "hero"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/hero/hero.go"
+  position {
+    x: -55.588
+    y: 391.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "movement"
+    properties {
+      id: "jump_takeoff_speed"
+      value: "770.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 507.904
+    y: 556.432
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "rock"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/rock.go"
+  position {
+    x: 1108.8251
+    y: 406.2206
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 1152.26
+    y: 1137.719
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "compas"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/compas.go"
+  position {
+    x: 1690.0
+    y: 1426.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "example_zombie_mage3"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
+  position {
+    x: 2311.575
+    y: 1343.512
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "key"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/key.go"
+  position {
+    x: 2389.611
+    y: 594.493
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "potion"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
+  position {
+    x: 1195.484
+    y: 1971.8007
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "door"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/doors/door.go"
+  position {
+    x: 3011.3706
+    y: 1899.7368
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "is_locked"
+      value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_trigger"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
+  position {
+    x: 2965.932
+    y: 1998.2253
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "action_url"
+      value: "action_open_door"
+      type: PROPERTY_TYPE_URL
+    }
+    properties {
+      id: "destroy_after_trigger"
+      value: "false"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "spikes"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/spikes.go"
+  position {
+    x: 3300.118
+    y: 1375.883
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin2"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 3536.87
+    y: 1411.374
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin6"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 3873.428
+    y: 1411.374
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
   id: "backpack"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/backpack.go"
   position {
@@ -1533,11 +515,11 @@ instances {
   }
 }
 instances {
-  id: "palette"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/palette.go"
+  id: "example_zombie_mage"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
   position {
-    x: 3716.0
-    y: 3110.0
+    x: 4447.481
+    y: 359.3
     z: 0.0
   }
   rotation {
@@ -1573,11 +555,71 @@ instances {
   }
 }
 instances {
+  id: "example_zombie_warrior6"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  position {
+    x: 5607.247
+    y: 642.692
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
   id: "game"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/game.go"
   position {
     x: 5252.0
     y: 1554.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "example_zombie_mage2"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
+  position {
+    x: 5901.7593
+    y: 1491.0311
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "potion5"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
+  position {
+    x: 6665.477
+    y: 1835.978
     z: 0.0
   }
   rotation {
@@ -1613,11 +655,433 @@ instances {
   }
 }
 instances {
+  id: "example_zombie_warrior4"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  position {
+    x: 5283.543
+    y: 2178.916
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "spikes1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/spikes.go"
+  position {
+    x: 4682.027
+    y: 2492.785
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin3"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 4708.726
+    y: 2676.247
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin16"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 4398.038
+    y: 3359.0256
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "key1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/key.go"
+  position {
+    x: 5248.7227
+    y: 3504.401
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "palette"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/palette.go"
+  position {
+    x: 3716.0
+    y: 3110.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_trigger2"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
+  position {
+    x: 3095.939
+    y: 2976.31
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "action_url"
+      value: "action_open_door2"
+      type: PROPERTY_TYPE_URL
+    }
+    properties {
+      id: "destroy_after_trigger"
+      value: "false"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "chest"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/chest.go"
+  position {
+    x: 3095.0403
+    y: 2881.4585
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "coins_contained"
+      value: "10.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "example_zombie_warrior5"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  position {
+    x: 2901.813
+    y: 2886.099
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "potion4"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
+  position {
+    x: 2286.148
+    y: 3082.68
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "example_zombie_mage4"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
+  position {
+    x: 7731.078
+    y: 512.954
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin18"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 7234.275
+    y: 574.674
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "potion6"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
+  position {
+    x: 7098.66
+    y: 576.84
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
   id: "wine"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/wine.go"
   position {
     x: 6628.0
     y: 418.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "door1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/doors/door.go"
+  position {
+    x: 8346.494
+    y: 1621.3961
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "is_locked"
+      value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_trigger1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
+  position {
+    x: 8281.898
+    y: 1721.5933
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "action_url"
+      value: "action_open_door1"
+      type: PROPERTY_TYPE_URL
+    }
+    properties {
+      id: "destroy_after_trigger"
+      value: "false"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "spikes2"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/spikes.go"
+  position {
+    x: 8491.427
+    y: 1648.178
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "example_zombie_warrior2"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  position {
+    x: 8065.2944
+    y: 2322.1538
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin7"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 8326.368
+    y: 2404.5913
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin8"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 8225.089
+    y: 2404.591
     z: 0.0
   }
   rotation {
@@ -1673,11 +1137,11 @@ instances {
   }
 }
 instances {
-  id: "hero"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/hero/hero.go"
+  id: "example_zombie_mage1"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_mage.go"
   position {
-    x: -55.588
-    y: 391.415
+    x: 9611.52
+    y: 2467.417
     z: 0.0
   }
   rotation {
@@ -1686,13 +1150,105 @@ instances {
     z: 0.0
     w: 1.0
   }
-  component_properties {
-    id: "movement"
-    properties {
-      id: "jump_takeoff_speed"
-      value: "770.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin12"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 10146.393
+    y: 2556.546
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin11"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 10300.3
+    y: 2690.8643
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin13"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 10498.979
+    y: 2570.5374
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin14"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 10608.112
+    y: 2380.253
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin15"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 10703.255
+    y: 2156.3892
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
   }
   scale3 {
     x: 1.0
@@ -1706,6 +1262,26 @@ instances {
   position {
     x: 11021.0
     y: 1706.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "example_zombie_warrior3"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
+  position {
+    x: 10163.392
+    y: 1770.667
     z: 0.0
   }
   rotation {
@@ -1741,11 +1317,11 @@ instances {
   }
 }
 instances {
-  id: "compas"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Assests/compas.go"
+  id: "example_zombie_warrior1"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_warrior.go"
   position {
-    x: 1690.0
-    y: 1426.0
+    x: 9323.501
+    y: 3310.977
     z: 0.0
   }
   rotation {
@@ -1760,71 +1336,450 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "potion3"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/potion.go"
+  position {
+    x: 8879.071
+    y: 3411.67
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "example_king"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/example_zombie_knight.go"
+  position {
+    x: 9841.12
+    y: 4137.421
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
+  position {
+    x: 705.7259
+    y: 1073.2952
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
+  position {
+    x: 5644.669
+    y: 2187.348
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree2"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
+  position {
+    x: 6471.104
+    y: 1911.298
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+    z: 1.5
+  }
+}
+instances {
+  id: "tree3"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
+  position {
+    x: 9683.587
+    y: 3320.407
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree4"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree.go"
+  position {
+    x: 1793.6885
+    y: 2186.63
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree_red"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
+  position {
+    x: 2108.747
+    y: 3055.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree_red1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
+  position {
+    x: -1.0411155
+    y: 400.7859
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree_red2"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
+  position {
+    x: 7380.018
+    y: 543.135
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree_red3"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
+  position {
+    x: 11234.26
+    y: 1661.84
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree_red4"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
+  position {
+    x: 9049.101
+    y: 4183.9473
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tree_red5"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
+  position {
+    x: 4188.709
+    y: 400.786
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "cave"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/cave.go"
+  position {
+    x: 2873.4458
+    y: 1509.3704
+    z: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "cave1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/cave.go"
+  position {
+    x: 2873.4458
+    y: 822.3309
+    z: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "cave2"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/cave.go"
+  position {
+    x: 6354.157
+    y: 1433.7924
+    z: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_change_coins"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_change_coins.go"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_open_door"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
+  position {
+    x: 1891.3317
+    y: 1289.1654
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "object_to_open"
+      value: "door"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_open_door1"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
+  position {
+    x: 7207.298
+    y: 1012.53326
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "object_to_open"
+      value: "door1"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_open_door2"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
+  position {
+    x: 3197.035
+    y: 3127.1733
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "object_to_open"
+      value: "chest"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "level"
-  children: "action_change_coins"
-  children: "action_open_door"
-  children: "action_open_door1"
-  children: "action_open_door2"
-  children: "action_trigger"
-  children: "action_trigger1"
-  children: "action_trigger2"
-  children: "cave"
-  children: "cave1"
-  children: "cave2"
-  children: "chest"
-  children: "coin"
-  children: "coin1"
-  children: "coin11"
-  children: "coin12"
-  children: "coin13"
-  children: "coin14"
-  children: "coin15"
-  children: "coin16"
-  children: "coin18"
-  children: "coin2"
-  children: "coin3"
-  children: "coin6"
-  children: "coin7"
-  children: "coin8"
-  children: "door"
-  children: "door1"
-  children: "example_king"
-  children: "example_zombie_mage"
-  children: "example_zombie_mage1"
-  children: "example_zombie_mage2"
-  children: "example_zombie_mage3"
-  children: "example_zombie_mage4"
-  children: "example_zombie_warrior1"
-  children: "example_zombie_warrior2"
-  children: "example_zombie_warrior3"
-  children: "example_zombie_warrior4"
-  children: "example_zombie_warrior5"
-  children: "example_zombie_warrior6"
-  children: "key"
-  children: "key1"
-  children: "potion"
-  children: "potion3"
-  children: "potion4"
-  children: "potion5"
-  children: "potion6"
-  children: "rock"
-  children: "spikes"
-  children: "spikes1"
-  children: "spikes2"
+  children: "Actions"
+  children: "Scene 1"
+  children: "Scene 10"
+  children: "Scene 11"
+  children: "Scene 12"
+  children: "Scene 13"
+  children: "Scene 14"
+  children: "Scene 15"
+  children: "Scene 2"
+  children: "Scene 3"
+  children: "Scene 4"
+  children: "Scene 5"
+  children: "Scene 6"
+  children: "Scene 7"
+  children: "Scene 8"
+  children: "Scene 9"
   children: "tilemap"
-  children: "tree"
-  children: "tree1"
-  children: "tree2"
-  children: "tree3"
-  children: "tree4"
-  children: "tree_red"
-  children: "tree_red1"
-  children: "tree_red2"
-  children: "tree_red3"
-  children: "tree_red4"
-  children: "tree_red5"
   data: ""
   position {
     x: 0.0
@@ -1935,18 +1890,379 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "Memories"
-  children: "PC"
-  children: "backpack"
-  children: "bicycle"
+  id: "Scene 1"
+  children: "coin"
+  children: "coin1"
+  children: "rock"
+  children: "tree"
+  children: "tree_red1"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 2"
+  children: "action_trigger"
+  children: "cave"
+  children: "cave1"
   children: "compas"
-  children: "degree"
-  children: "drugs"
-  children: "form"
+  children: "door"
+  children: "example_zombie_mage3"
+  children: "key"
+  children: "potion"
+  children: "tree4"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 3"
+  children: "coin2"
+  children: "coin6"
+  children: "spikes"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 4"
+  children: "backpack"
+  children: "example_zombie_mage"
+  children: "tree_red5"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 5"
+  children: "bicycle"
+  children: "example_zombie_warrior6"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 6"
+  children: "cave2"
+  children: "example_zombie_mage2"
   children: "game"
+  children: "potion5"
+  children: "tree2"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 7"
+  children: "coin16"
+  children: "coin3"
+  children: "drugs"
+  children: "example_zombie_warrior4"
+  children: "key1"
+  children: "spikes1"
+  children: "tree1"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 8"
+  children: "action_trigger2"
+  children: "chest"
+  children: "example_zombie_warrior5"
   children: "palette"
-  children: "videocamera"
+  children: "potion4"
+  children: "tree_red"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 9"
+  children: "coin18"
+  children: "example_zombie_mage4"
+  children: "potion6"
+  children: "tree_red2"
   children: "wine"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 10"
+  children: "action_trigger1"
+  children: "door1"
+  children: "spikes2"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 11"
+  children: "coin7"
+  children: "coin8"
+  children: "example_zombie_warrior2"
+  children: "videocamera"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 12"
+  children: "example_zombie_mage1"
+  children: "form"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 13"
+  children: "coin11"
+  children: "coin12"
+  children: "coin13"
+  children: "coin14"
+  children: "coin15"
+  children: "degree"
+  children: "example_zombie_warrior3"
+  children: "tree_red3"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 14"
+  children: "PC"
+  children: "example_zombie_warrior1"
+  children: "potion3"
+  children: "tree3"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Scene 15"
+  children: "example_king"
+  children: "tree_red4"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "Actions"
+  children: "action_change_coins"
+  children: "action_open_door"
+  children: "action_open_door1"
+  children: "action_open_door2"
   data: ""
   position {
     x: 0.0
