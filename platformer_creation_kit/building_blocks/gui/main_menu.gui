@@ -249,7 +249,7 @@ nodes {
 nodes {
   position {
     x: 640.0
-    y: 603.6826
+    y: 572.683
     z: 0.0
     w: 1.0
   }
@@ -279,7 +279,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Game Name"
+  text: "Lost Knight"
   font: "main_menu_font"
   id: "text"
   xanchor: XANCHOR_NONE

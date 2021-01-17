@@ -13,13 +13,13 @@ speech_content =
 	[1] =
 	{
 		texture = "05 Knight",
-		display_name = "Тинк",
-		content = "Сцена 1",
+		display_name = "NPC",
+		content = "Игрок узнает о том, где он находится",
 		choices =
 		{
 			[1] =
 			{
-				text = "Без малейшего понятия",
+				text = "Продолжить",
 				next = nil
 			},
 		},
@@ -30,8 +30,8 @@ speech_content =
 	[4] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 2",
+		display_name = "Воспоминание",
+		content = "История о начале приключения",
 		choices =
 		{
 			[1] =
@@ -47,8 +47,8 @@ speech_content =
 	[7] =
 	{
 		texture = "11 Mage",
-		display_name = "Незнакомка",
-		content = "Сцена 3",
+		display_name = "NPC",
+		content = "Игрок узнает о том, как выбраться",
 		choices =
 		{
 			[1] =
@@ -64,8 +64,8 @@ speech_content =
 	[10] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 4",
+		display_name = "Воспоминание",
+		content = "История о выборе правильного места за партой",
 		choices =
 		{
 			[1] =
@@ -81,8 +81,8 @@ speech_content =
 	[13] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 5",
+		display_name = "Воспоминание",
+		content = "История о прогулах музыкальной школы",
 		choices =
 		{
 			[1] =
@@ -98,8 +98,8 @@ speech_content =
 	[16] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 6",
+		display_name = "Воспоминание",
+		content = "История о проигранном финале",
 		choices =
 		{
 			[1] =
@@ -115,8 +115,8 @@ speech_content =
 	[19] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 7",
+		display_name = "Воспоминание",
+		content = "История о неудачной вечеринке",
 		choices =
 		{
 			[1] =
@@ -132,8 +132,8 @@ speech_content =
 	[22] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 8",
+		display_name = "Воспоминание",
+		content = "История о неудачном свидании",
 		choices =
 		{
 			[1] =
@@ -149,8 +149,8 @@ speech_content =
 	[25] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 9",
+		display_name = "Воспоминание",
+		content = "Продолжение истории о свидании",
 		choices =
 		{
 			[1] =
@@ -166,13 +166,13 @@ speech_content =
 	[28] =
 	{
 		texture = "07 Queen",
-		display_name = "Незнакомка",
-		content = "Сцена 10",
+		display_name = "NPC",
+		content = "Игрок узнает о финальном боссе",
 		choices =
 		{
 			[1] =
 			{
-				text = "Мой ответ",
+				text = "Продолжить",
 				next = nil
 			},
 		},
@@ -183,8 +183,8 @@ speech_content =
 	[31] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 11",
+		display_name = "Воспоминание",
+		content = "История о конце школы",
 		choices =
 		{
 			[1] =
@@ -200,8 +200,8 @@ speech_content =
 	[34] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 12",
+		display_name = "Воспоминание",
+		content = "История о выборе универа",
 		choices =
 		{
 			[1] =
@@ -217,8 +217,8 @@ speech_content =
 	[37] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 13",
+		display_name = "Воспоминание",
+		content = "История о дипломе",
 		choices =
 		{
 			[1] =
@@ -234,8 +234,8 @@ speech_content =
 	[40] =
 	{
 		texture = "06 Knight",
-		display_name = "Мысли",
-		content = "Сцена 14",
+		display_name = "Воспоминание",
+		content = "История о выборе работы",
 		choices =
 		{
 			[1] =
@@ -252,12 +252,12 @@ speech_content =
 	{
 		texture = "23 Zombie Knight",
 		display_name = "Босс",
-		content = "Сцена 15",
+		content = "История о потере сознания и возможности возвращения в реальный мир",
 		choices =
 		{
 			[1] =
 			{
-				text = "Это мы еще посмотрим",
+				text = "Продолжить",
 				next = nil
 			},
 		},

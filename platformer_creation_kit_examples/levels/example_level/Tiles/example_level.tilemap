@@ -4150,14 +4150,14 @@ layers {
   cell {
     x: 71
     y: 12
-    tile: 3
+    tile: 5
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 72
     y: 12
-    tile: 1
+    tile: 9
     h_flip: 0
     v_flip: 0
   }
@@ -4256,6 +4256,20 @@ layers {
     x: 47
     y: 13
     tile: 18
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 71
+    y: 13
+    tile: 3
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 72
+    y: 13
+    tile: 2
     h_flip: 0
     v_flip: 0
   }

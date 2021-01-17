@@ -277,8 +277,8 @@ instances {
   id: "coin"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
-    x: 1011.26
-    y: 1137.719
+    x: 908.26
+    y: 1213.719
     z: 0.0
   }
   rotation {
@@ -602,8 +602,8 @@ instances {
   id: "example_zombie_mage2"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_mage.go"
   position {
-    x: 5901.7593
-    y: 1491.0311
+    x: 5926.759
+    y: 1491.031
     z: 0.0
   }
   rotation {
@@ -616,7 +616,7 @@ instances {
     id: "ai"
     properties {
       id: "follow_distance"
-      value: "350.0"
+      value: "300.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
@@ -698,7 +698,7 @@ instances {
   id: "spikes1"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/obstacles/spikes.go"
   position {
-    x: 4682.027
+    x: 4692.027
     y: 2492.785
     z: 0.0
   }
@@ -718,8 +718,8 @@ instances {
   id: "coin3"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
-    x: 4708.726
-    y: 2676.247
+    x: 4687.726
+    y: 2666.247
     z: 0.0
   }
   rotation {
@@ -738,8 +738,8 @@ instances {
   id: "coin16"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
-    x: 4398.038
-    y: 3359.0256
+    x: 4537.038
+    y: 3456.026
     z: 0.0
   }
   rotation {
@@ -1348,8 +1348,8 @@ instances {
   id: "example_zombie_warrior3"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
-    x: 10163.392
-    y: 1770.667
+    x: 10473.392
+    y: 1617.667
     z: 0.0
   }
   rotation {
@@ -1357,6 +1357,14 @@ instances {
     y: 0.0
     z: 0.0
     w: 1.0
+  }
+  component_properties {
+    id: "ai"
+    properties {
+      id: "follow_distance"
+      value: "300.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
   }
   component_properties {
     id: "health"
@@ -2220,7 +2228,7 @@ instances {
   id: "action_trigger 8"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 0.0
+    x: -8.0
     y: 0.0
     z: 0.0
   }
@@ -2234,7 +2242,7 @@ instances {
     id: "script"
     properties {
       id: "action_url"
-      value: "action_say_speech 9"
+      value: "action_say_speech 8"
       type: PROPERTY_TYPE_URL
     }
   }
@@ -2792,6 +2800,26 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "coin2"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
+  position {
+    x: 2106.26
+    y: 2281.719
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "level"
@@ -2954,6 +2982,7 @@ embedded_instances {
   children: "action_trigger"
   children: "cave"
   children: "cave1"
+  children: "coin2"
   children: "compas"
   children: "door"
   children: "example_zombie_mage3"
