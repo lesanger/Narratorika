@@ -209,7 +209,7 @@ instances {
   id: "hero"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/hero/hero.go"
   position {
-    x: -55.588
+    x: -140.588
     y: 391.415
     z: 0.0
   }
@@ -238,7 +238,7 @@ instances {
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
   position {
     x: 507.904
-    y: 642.432
+    y: 551.432
     z: 0.0
   }
   rotation {
@@ -1600,8 +1600,8 @@ instances {
   id: "tree_red1"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
   position {
-    x: -1.0411155
-    y: 400.7859
+    x: 187.959
+    y: 400.786
     z: 0.0
   }
   rotation {
