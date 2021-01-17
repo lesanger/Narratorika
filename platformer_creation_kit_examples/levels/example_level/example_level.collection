@@ -487,7 +487,7 @@ instances {
   prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/backpack.go"
   position {
     x: 3547.0
-    y: 446.0
+    y: 459.0
     z: 0.0
   }
   rotation {
@@ -535,7 +535,7 @@ instances {
   prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/bicycle.go"
   position {
     x: 5085.0
-    y: 704.0
+    y: 745.0
     z: 0.0
   }
   rotation {
@@ -2061,7 +2061,7 @@ instances {
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
     x: 0.0
-    y: 0.0
+    y: 41.0
     z: 0.0
   }
   rotation {
@@ -2677,7 +2677,7 @@ instances {
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
     x: 0.0
-    y: 0.0
+    y: 13.0
     z: 0.0
   }
   rotation {

@@ -1,13 +1,13 @@
-go.property("amplitude_x", 100)
-go.property("amplitude_y", 100)
-go.property("frequency_x", 1)
-go.property("frequency_y", 1)
+go.property("amplitude_x", 5)
+go.property("amplitude_y", 10)
+go.property("frequency_x", 0.134)
+go.property("frequency_y", 0.5)
 go.property("start_on_awake", true)
 go.property("start_delay", 0)
 
 function init(self)
 	if self.start_on_awake then
-		--start_movement(self)
+		start_movement(self)
 	end
 end
 
@@ -28,7 +28,7 @@ function update(self, dt)
 	if self.start_delay > 0 then
 		self.start_delay = self.start_delay - dt
 		if self.start_delay <= 0 then
-			--start_movement(self)
+			start_movement(self)
 		end	
 	end
 end
