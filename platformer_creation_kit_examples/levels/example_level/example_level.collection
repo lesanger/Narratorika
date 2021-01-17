@@ -297,8 +297,8 @@ instances {
   id: "compas"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/compas.go"
   position {
-    x: 1720.0
-    y: 1426.0
+    x: 1749.0
+    y: 1416.0
     z: 0.0
   }
   rotation {
@@ -1940,7 +1940,7 @@ instances {
   id: "action_trigger 2"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 30.0
+    x: 73.0
     y: 0.0
     z: 0.0
   }
@@ -2612,7 +2612,7 @@ instances {
   id: "action_trigger 15"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 0.0
+    x: 52.0
     y: 0.0
     z: 0.0
   }
@@ -2738,6 +2738,46 @@ instances {
   position {
     x: 648.0
     y: 1062.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "letter"
+  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/letter.go"
+  position {
+    x: 10291.0
+    y: 4378.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "win"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/win.go"
+  position {
+    x: 10339.0
+    y: 4379.0
     z: 0.0
   }
   rotation {
@@ -3247,7 +3287,9 @@ embedded_instances {
   id: "Scene 15"
   children: "Dialogue 15"
   children: "example_king"
+  children: "letter"
   children: "tree_red4"
+  children: "win"
   data: ""
   position {
     x: 0.0
