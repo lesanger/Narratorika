@@ -531,26 +531,6 @@ instances {
   }
 }
 instances {
-  id: "bicycle"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/bicycle.go"
-  position {
-    x: 5085.0
-    y: 745.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "example_zombie_warrior6"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
@@ -571,26 +551,6 @@ instances {
       value: "350.0"
       type: PROPERTY_TYPE_NUMBER
     }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "game"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/game.go"
-  position {
-    x: 5252.0
-    y: 1554.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
   }
   scale3 {
     x: 1.0
@@ -1134,26 +1094,6 @@ instances {
   position {
     x: 8225.089
     y: 2404.591
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "videocamera"
-  prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/videocamera.go"
-  position {
-    x: 8490.0
-    y: 2536.0
     z: 0.0
   }
   rotation {
@@ -2029,118 +1969,6 @@ instances {
   }
 }
 instances {
-  id: "action_say_speech 5"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_say_speech.go"
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "speech_index"
-      value: "13.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger 5"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 0.0
-    y: 41.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_say_speech 5"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_say_speech 6"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_say_speech.go"
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "speech_index"
-      value: "16.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger 6"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_say_speech 6"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "action_say_speech 7"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_say_speech.go"
   position {
@@ -2411,62 +2239,6 @@ instances {
     properties {
       id: "action_url"
       value: "action_say_speech 12"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_say_speech 11"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_say_speech.go"
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "speech_index"
-      value: "31.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger 11"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: -29.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_say_speech 11"
       type: PROPERTY_TYPE_URL
     }
   }
@@ -3057,8 +2829,6 @@ embedded_instances {
 }
 embedded_instances {
   id: "Scene 5"
-  children: "Dialogue 5"
-  children: "bicycle"
   children: "example_zombie_warrior6"
   data: ""
   position {
@@ -3080,10 +2850,8 @@ embedded_instances {
 }
 embedded_instances {
   id: "Scene 6"
-  children: "Dialogue 6"
   children: "cave2"
   children: "example_zombie_mage2"
-  children: "game"
   children: "potion5"
   children: "tree2"
   data: ""
@@ -3212,11 +2980,9 @@ embedded_instances {
 }
 embedded_instances {
   id: "Scene 11"
-  children: "Dialogue 11"
   children: "coin7"
   children: "coin8"
   children: "example_zombie_warrior2"
-  children: "videocamera"
   data: ""
   position {
     x: 0.0
@@ -3450,50 +3216,6 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "Dialogue 5"
-  children: "action_say_speech 5"
-  children: "action_trigger 5"
-  data: ""
-  position {
-    x: 5150.0
-    y: 641.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "Dialogue 6"
-  children: "action_say_speech 6"
-  children: "action_trigger 6"
-  data: ""
-  position {
-    x: 5196.0
-    y: 1602.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
   id: "Dialogue 7"
   children: "action_say_speech 7"
   children: "action_trigger 7"
@@ -3567,28 +3289,6 @@ embedded_instances {
   position {
     x: 9127.0
     y: 1727.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "Dialogue 11"
-  children: "action_say_speech 11"
-  children: "action_trigger 11"
-  data: ""
-  position {
-    x: 8457.0
-    y: 2588.0
     z: 0.0
   }
   rotation {
