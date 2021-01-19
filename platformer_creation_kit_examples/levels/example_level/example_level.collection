@@ -297,7 +297,7 @@ instances {
   id: "compas"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/compas.go"
   position {
-    x: 1749.0
+    x: 2291.0
     y: 1416.0
     z: 0.0
   }
@@ -317,7 +317,7 @@ instances {
   id: "example_zombie_mage3"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_mage.go"
   position {
-    x: 2311.575
+    x: 2033.575
     y: 1343.512
     z: 0.0
   }
@@ -486,7 +486,7 @@ instances {
   id: "backpack"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/backpack.go"
   position {
-    x: 3547.0
+    x: 4536.0
     y: 459.0
     z: 0.0
   }
@@ -506,7 +506,7 @@ instances {
   id: "example_zombie_mage"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_mage.go"
   position {
-    x: 4447.481
+    x: 3982.481
     y: 359.3
     z: 0.0
   }
@@ -534,7 +534,7 @@ instances {
   id: "example_zombie_warrior6"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
-    x: 5607.247
+    x: 5184.247
     y: 642.692
     z: 0.0
   }
@@ -562,7 +562,7 @@ instances {
   id: "example_zombie_mage2"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_mage.go"
   position {
-    x: 5926.759
+    x: 5740.759
     y: 1491.031
     z: 0.0
   }
@@ -936,7 +936,7 @@ instances {
   prototype: "/platformer_creation_kit_examples/levels/example_level/Memories/wine.go"
   position {
     x: 6628.0
-    y: 418.0
+    y: 481.0
     z: 0.0
   }
   rotation {
@@ -1620,7 +1620,7 @@ instances {
   id: "tree_red5"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/props/tree_red.go"
   position {
-    x: 4188.709
+    x: 4341.709
     y: 400.786
     z: 0.0
   }
@@ -1888,7 +1888,7 @@ instances {
   id: "action_trigger 2"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 73.0
+    x: 617.0
     y: 0.0
     z: 0.0
   }
@@ -2337,7 +2337,7 @@ instances {
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
     x: 0.0
-    y: 0.0
+    y: 63.0
     z: 0.0
   }
   rotation {
@@ -2448,7 +2448,7 @@ instances {
   id: "action_trigger 4"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: 0.0
+    x: 1109.0
     y: 13.0
     z: 0.0
   }
