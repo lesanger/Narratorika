@@ -534,7 +534,7 @@ instances {
   id: "example_zombie_warrior6"
   prototype: "/platformer_creation_kit_examples/levels/example_level/Enemies/example_zombie_warrior.go"
   position {
-    x: 5184.247
+    x: 5537.247
     y: 642.692
     z: 0.0
   }
@@ -1874,7 +1874,7 @@ instances {
     id: "script"
     properties {
       id: "speech_index"
-      value: "4.0"
+      value: "5.0"
       type: PROPERTY_TYPE_NUMBER
     }
   }
